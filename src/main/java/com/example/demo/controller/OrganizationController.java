@@ -1,7 +1,6 @@
 package com.example.demo.controller;
 
 import com.example.demo.Organization;
-import com.example.demo.repository.OrganisationRepository;
 import com.example.demo.service.OrganizationService;
 import org.springframework.web.bind.annotation.*;
 
