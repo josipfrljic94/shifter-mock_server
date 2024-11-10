@@ -1,6 +1,5 @@
 package com.example.demo.model;
 
-import com.example.demo.Organization;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 

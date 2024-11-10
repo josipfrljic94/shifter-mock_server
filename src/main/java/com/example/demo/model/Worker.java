@@ -1,9 +1,11 @@
 package com.example.demo.model;
 
+import java.util.List;
+
 public class Worker {
     private String ime;
     private String prezime;
-    private String pozicija;
+    private List<String> pozicije;
     private int brojSati;
 
     public String getIme() { return ime; }
@@ -12,8 +14,6 @@ public class Worker {
     public String getPrezime() { return prezime; }
     public void setPrezime(String prezime) { this.prezime = prezime; }
 
-    public String getPozicija() { return pozicija; }
-    public void setPozicija(String pozicija) { this.pozicija = pozicija; }
 
     public int getBrojSati() { return brojSati; }
     public void setBrojSati(int brojSati) { this.brojSati = brojSati; }
@@ -23,8 +23,16 @@ public class Worker {
         return "Worker{" +
                 "ime='" + ime + '\'' +
                 ", prezime='" + prezime + '\'' +
-                ", pozicija='" + pozicija + '\'' +
+                ", pozicija='" + pozicije.size() + '\'' +
                 ", brojSati=" + brojSati +
                 '}';
+    }
+
+    public List<String> getPozicije() {
+        return pozicije;
+    }
+
+    public void setPozicije(List<String> pozicije) {
+        this.pozicije = pozicije;
     }
 }

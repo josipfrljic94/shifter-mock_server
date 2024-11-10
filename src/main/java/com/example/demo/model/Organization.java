@@ -1,6 +1,5 @@
-package com.example.demo;
+package com.example.demo.model;
 
-import com.example.demo.model.Branch;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 

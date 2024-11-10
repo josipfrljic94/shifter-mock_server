@@ -3,7 +3,7 @@ spring:
     name: sb-1
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/springbootdb
+    url: jdbc:postgresql://localhost:5433/springbootdb
     username: springuser
     password: springpass
     driver-class-name: org.postgresql.Driver
