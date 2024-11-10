@@ -23,8 +23,6 @@ public class CSVHelper {
             int lineNumber = 0;
 
             // Prolazak kroz svaki red u CSV fajlu
-            csvReader.readNext(); // Preskoči zaglavlje, ako postoji
-
             while ((values = csvReader.readNext()) != null) {
                 lineNumber++;
                 try {

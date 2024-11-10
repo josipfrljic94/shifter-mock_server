@@ -75,11 +75,11 @@ public class Branch {
         this.contactNumber = contactNumber;
     }
 
-    public String getContactEamil() {
+    public String getContactEmail() {
         return contactEmail;
     }
 
-    public void setContactEamil(String contactEamil) {
-        this.contactEmail = contactEamil;
+    public void setContactEmail(String contactEmail) {
+        this.contactEmail = contactEmail;
     }
 }

@@ -25,7 +25,7 @@ public class Organization {
 
     public Organization(List<Branch> branches, String adress, String name) {
         this.branches = branches;
-        this.adress = adress;
+        this.address = adress;
         this.name = name;
     }
 
@@ -41,7 +41,7 @@ public class Organization {
 
 
 
-    private String adress;
+    private String address;
 
     public Integer getId() {
         return id;
@@ -59,11 +59,11 @@ public class Organization {
         this.name = name;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String adress) {
+        this.address = adress;
     }
 }
